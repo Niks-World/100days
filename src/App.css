@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.background-video {
+  position: relative;
+  width: 100%;
+ 
+  height: 400vh;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#btn {
+  position: absolute;
+  top: 55%; /* Adjust the vertical position */
+  left: 50%; /* Adjust the horizontal position */
+  transform: translate(-50%, -50%); /* Center the button */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+p {
+  position: absolute;
+  padding-left: 8%;
+  padding-right: 8%;
+  top: 60%; /* Adjust the vertical position */
+  left: 50%; /* Adjust the horizontal position */
+  transform: translateX(-50%); /* Center horizontally */
+  color: rgb(242, 235, 241);
+  font-size: 18px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+
+h1 {
+  position: absolute;
+  top: 0.5%; 
+  left: 50%; /* Adjust the horizontal position */
+  transform: translateX(-50%); /* Center horizontally */
+  color: black;
+  /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-size: 60px;
+  text-decoration: underline;
+  font-family:'Times New Roman', Times, serif;
+}
+#vid{
+  width: 20%;
+  border-radius: 30px;
+  height: 10%;
+  top: 0.5%;
+  margin-left: 1%;
+ 
+}
+#vid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh; 
+  
+}
